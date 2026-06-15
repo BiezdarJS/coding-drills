@@ -40,4 +40,4 @@ function hasDocumentWithMultipleActiveVersions() {
     .some((item) => item.hasMoreThanOneActive);
 }
 
-console.log(doMagic2());
+console.log(hasDocumentWithMultipleActiveVersions());
